@@ -1,0 +1,19 @@
+/* ======================================================================
+VARIABLES
+====================================================================== */
+// Colour Variables
+$colour-white: #f7f7f7;
+$colour-black: #111;
+
+$colour-primary: #0053d9;
+$colour-primary-extra-light: lighten($colour-primary, 20%);
+$colour-primary-light: lighten($colour-primary, 10%);
+$colour-primary-dark: darken($colour-primary, 20%);
+$colour-primary-extra-dark: darken($colour-primary, 30%);
+
+
+
+// Font Stack
+$font-primary: 'Raleway',
+'Arial',
+sans-serif;
