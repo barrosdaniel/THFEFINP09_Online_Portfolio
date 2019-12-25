@@ -17,10 +17,8 @@ html {
 }
 
 body {
-  /* From project */
   box-sizing: border-box;
-  padding: 3rem;
-  background-color: #001840;
+  background-color: #000f27;
   color: #f7f7f7;
   font-family: "Raleway", "Arial", sans-serif;
   font-weight: 400;
@@ -42,6 +40,27 @@ a {
 .container {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.filler {
+  height: 1200px;
+}
+
+/* Scale canvas with resize attribute to full size */
+.particles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.particles-js-canvas-el {
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+}
+.particles[resize] {
+  width: 100%;
+  height: 100%;
 }
 
 .header {
@@ -83,6 +102,8 @@ a {
 .header__link {
   color: #d9c300;
   transition: all 0.3s;
+  position: relative;
+  z-index: 3;
 }
 .header__link:hover {
   color: #a69500;

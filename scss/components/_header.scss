@@ -42,6 +42,8 @@
   &__link {
     color: $colour-tertiary;
     transition: all 0.3s;
+    position: relative;
+    z-index: 3;
 
     &:hover {
       color: $colour-tertiary-dark;

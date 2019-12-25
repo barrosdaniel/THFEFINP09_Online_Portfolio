@@ -14,9 +14,7 @@ html {
 }
 
 body {
-  /* From project */
   box-sizing: border-box;
-  padding: 3rem;
   background-color: $colour-primary-extra-dark;
   color: $colour-white;
   font-family: $font-primary;
@@ -39,4 +37,8 @@ a {
 .container {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.filler {
+  height: 1200px;
 }
