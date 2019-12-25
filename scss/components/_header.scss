@@ -1,3 +1,50 @@
-h1 {
-  color: red;
+.header {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__avatar-container {
+    width: 19rem;
+    height: 19rem;
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__avatar {
+    height: 100%;
+    transform: scale(1.4);
+    backface-visibility: hidden;
+  }
+
+  &__title {
+    font-size: 8rem;
+    margin-top: 2rem;
+    font-weight: 300;
+  }
+
+  &__subtitle {
+    margin-top: -1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: $colour-secondary-extra-light;
+  }
+
+  &__paragraph {
+    width: 80%;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+
+  &__link {
+    color: $colour-tertiary;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $colour-tertiary-dark;
+    }
+  }
 }

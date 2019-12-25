@@ -39,8 +39,53 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  color: red;
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__avatar-container {
+  width: 19rem;
+  height: 19rem;
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header__avatar {
+  height: 100%;
+  transform: scale(1.4);
+  backface-visibility: hidden;
+}
+.header__title {
+  font-size: 8rem;
+  margin-top: 2rem;
+  font-weight: 300;
+}
+.header__subtitle {
+  margin-top: -1rem;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: #ff4063;
+}
+.header__paragraph {
+  width: 80%;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+.header__link {
+  color: #d9c300;
+  transition: all 0.3s;
+}
+.header__link:hover {
+  color: #a69500;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -11,9 +11,25 @@ $colour-primary-light: lighten($colour-primary, 10%);
 $colour-primary-dark: darken($colour-primary, 20%);
 $colour-primary-extra-dark: darken($colour-primary, 30%);
 
+$colour-secondary: #d90028;
+$colour-secondary-extra-light: lighten($colour-secondary, 20%);
+$colour-secondary-light: lighten($colour-secondary, 10%);
+$colour-secondary-dark: darken($colour-secondary, 20%);
+$colour-secondary-extra-dark: darken($colour-secondary, 30%);
+
+$colour-tertiary: #d9c300;
+$colour-tertiary-extra-light: lighten($colour-tertiary, 20%);
+$colour-tertiary-light: lighten($colour-tertiary, 10%);
+$colour-tertiary-dark: darken($colour-tertiary, 10%);
+$colour-tertiary-extra-dark: darken($colour-tertiary, 20%);
+
 
 
 // Font Stack
 $font-primary: 'Raleway',
 'Arial',
 sans-serif;
+
+
+
+// Breakpoints
