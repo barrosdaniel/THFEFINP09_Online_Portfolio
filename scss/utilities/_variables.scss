@@ -5,11 +5,17 @@ VARIABLES
 $colour-white: #f7f7f7;
 $colour-black: #111;
 
+$colour-gray: #808080;
+$colour-gray-extra-light: lighten($colour-gray, 20%);
+$colour-gray-light: lighten($colour-gray, 10%);
+$colour-gray-dark: darken($colour-gray, 20%);
+$colour-gray-extra-dark: darken($colour-gray, 30%);
+
 $colour-primary: #0053d9;
 $colour-primary-extra-light: lighten($colour-primary, 20%);
 $colour-primary-light: lighten($colour-primary, 10%);
 $colour-primary-dark: darken($colour-primary, 20%);
-$colour-primary-extra-dark: darken($colour-primary, 35%);
+$colour-primary-extra-dark: darken($colour-primary, 30%);
 
 $colour-secondary: #d90028;
 $colour-secondary-extra-light: lighten($colour-secondary, 20%);
@@ -29,6 +35,11 @@ $colour-tertiary-extra-dark: darken($colour-tertiary, 20%);
 $font-primary: 'Raleway',
 'Arial',
 sans-serif;
+
+
+
+// Box-shadow
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 
 
 

@@ -1,0 +1,62 @@
+.projects {
+  &__tile {
+    display: flex;
+    width: 80%;
+    margin: 4rem auto 0;
+    border: 1px solid $colour-gray;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: 0.3s all;
+
+    &:hover {
+      box-shadow: $box-shadow;
+      transform: translateY(-2px);
+    }
+
+    &-heading {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-title {
+      font-size: 2rem;
+    }
+
+    &-icon-link {
+      color: $colour-gray;
+      margin-left: 1rem;
+      transition: 0.3s all;
+
+      &:hover {
+        color: $colour-gray-dark;
+      }
+    }
+
+    &-paragraph {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      text-align: left;
+
+      &--highlight {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__image-link {
+    margin-right: 2rem;
+  }
+
+  &__image-container {
+    width: 25rem;
+    height: 18.75rem;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+  }
+
+}

@@ -15,7 +15,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: $colour-primary-extra-dark;
+  background: linear-gradient($colour-primary-extra-dark, $colour-primary-dark);
   color: $colour-white;
   font-family: $font-primary;
   font-weight: 400;

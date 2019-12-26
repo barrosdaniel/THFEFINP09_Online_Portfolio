@@ -29,7 +29,7 @@
     font-size: 2rem;
     font-weight: 300;
     font-style: italic;
-    color: $colour-secondary-extra-light;
+    // color: $colour-secondary-extra-light;
   }
 
   &__paragraph {
@@ -40,13 +40,13 @@
   }
 
   &__link {
-    color: $colour-tertiary;
-    transition: all 0.3s;
+    color: $colour-secondary-extra-light;
+    transition: all 0.2s;
     position: relative;
     z-index: 3;
 
     &:hover {
-      color: $colour-tertiary-dark;
+      color: $colour-secondary;
     }
   }
 }

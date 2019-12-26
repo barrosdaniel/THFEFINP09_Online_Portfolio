@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous" />
   <link
     href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap"
     rel="stylesheet">
@@ -14,7 +17,10 @@
 </head>
 
 <body>
+  <!-- Particles background -->
   <div id="particles-js" class="particles"></div>
+
+  <!-- Header starts -->
   <header class="header container">
     <figure class="header__avatar-container">
       <img class="header__avatar" src="img/headshot.jpg"
@@ -34,6 +40,66 @@
       <a href="https://www.linkedin.com/in/barros-daniel/" class="header__link"
         target="_blank">profile</a>.</p>
   </header>
+  <!-- Header ends -->
+
+  <!-- Main starts -->
+  <main class="container content">
+    <section class="projects">
+      <h2 class="content__title">Sample Projects</h2>
+      <p class="content__paragraph">Have a look below at some of my highlighted
+        projects.</p>
+      <!-- Project tiles -->
+      <article class="projects__tile">
+        <a href="img/Project_01_Dashboard.jpg" class="projects__image-link">
+          <figure class="projects__image-container">
+            <img class="projects__image" src="img/Project_01_Dashboard.jpg"
+              alt="Screenshot of Dashboard Project">
+          </figure>
+        </a>
+        <div class="projects__text">
+          <div class="projects__tile-heading">
+            <h4 class="projects__tile-title">DBarrosApp Dashboard</h4>
+            <div class="projects__tile-links">
+              <a href="https://github.com/barrosdaniel/THFEFINP07_Web-App-Dashboard"
+                target="_blank" class="projects__tile-icon-link">
+                <i class="fab fa-github-square fa-3x"
+                  class="projects__tile-icon"></i>
+              </a>
+              <a href="https://barrosdaniel.github.io/THFEFINP07_Web-App-Dashboard/"
+                target="_blank" class="projects__tile-icon-link">
+                <i class="fas fa-external-link-square-alt fa-3x"
+                  class="projects__tile-icon"></i>
+              </a>
+            </div>
+          </div>
+          <p class="projects__tile-paragraph">This is a responsible front-end
+            for
+            a user self-service area.</p>
+          <p class="projects__tile-paragraph">To implement a reponsive,
+            mobile-first design, I used a Sass architecture and the BEM naming
+            convention. I also used SVG
+            sprote-sheets to include icons. In this project, I also implemented
+            many JavaScript features, such as alert pop-up boxes, form
+            validation,
+            autocomplete. I also used the chartJs library and implemented data
+            persistence with Local Storage.</p>
+          <p class="projects__tile-paragraph"><span
+              class="projects__tile-paragraph--highlight">Technologies</span>:
+            HTML, CSS, Responsive design, SVGs, Sass, BEM, JavaScript, chart.js,
+            localStorage (simuating a database link).</p>
+        </div>
+      </article>
+
+
+
+
+    </section>
+
+
+
+
+  </main>
+  <!-- Main ends -->
 
   <div class="filler"></div>
 
