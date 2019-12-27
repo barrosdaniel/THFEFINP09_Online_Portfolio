@@ -1,0 +1,17 @@
+.footer {
+  margin: 4rem auto;
+  text-align: center;
+
+  &__social-link {
+    margin: 0 1rem;
+  }
+
+  &__social-icon {
+    color: $colour-white;
+  }
+
+  &__copyright {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+}

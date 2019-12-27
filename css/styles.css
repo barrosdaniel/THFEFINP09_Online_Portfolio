@@ -177,4 +177,19 @@ a {
   backface-visibility: hidden;
 }
 
+.footer {
+  margin: 4rem auto;
+  text-align: center;
+}
+.footer__social-link {
+  margin: 0 1rem;
+}
+.footer__social-icon {
+  color: #f7f7f7;
+}
+.footer__copyright {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
