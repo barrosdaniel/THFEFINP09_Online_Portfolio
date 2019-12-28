@@ -25,11 +25,19 @@
     &-icon-link {
       color: $colour-gray;
       margin-left: 1rem;
-      transition: 0.3s all;
+      transition: 0.1s all;
 
       &:hover {
         color: $colour-gray-dark;
+
+        & .projects__tile-icon {
+          transform: scale(1.1);
+        }
       }
+    }
+
+    &-icon {
+      transition: 0.1s all;
     }
 
     &-paragraph {
