@@ -241,8 +241,13 @@ a {
   position: relative;
   z-index: 5;
 }
+.footer__social-link:hover .footer__social-icon {
+  color: #9a9a9a;
+  transform: scale(1.2);
+}
 .footer__social-icon {
   color: #f7f7f7;
+  transition: 0.1s all;
 }
 .footer__copyright {
   margin-top: 2rem;

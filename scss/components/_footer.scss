@@ -6,10 +6,17 @@
     margin: 0 1rem;
     position: relative;
     z-index: 5;
+
+    &:hover .footer__social-icon {
+      color: $colour-gray-light;
+      transform: scale(1.2);
+    }
+
   }
 
   &__social-icon {
     color: $colour-white;
+    transition: 0.1s all;
   }
 
   &__copyright {
