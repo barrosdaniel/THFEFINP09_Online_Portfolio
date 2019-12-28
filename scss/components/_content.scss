@@ -12,6 +12,11 @@
     padding: 2.5rem 1.25rem;
   }
 
+  @include mq('md') {
+    margin: 5rem auto 3rem;
+    padding: 3rem 1.5rem;
+  }
+
   @include mq('xl') {
     margin: 8rem auto;
     border-radius: 2rem;
@@ -26,6 +31,10 @@
       font-size: 4rem;
     }
 
+    @include mq('md') {
+      font-size: 4.5rem;
+    }
+
     @include mq('xl') {
       font-size: 6rem;
     }
@@ -35,9 +44,14 @@
     font-size: 1.3rem;
     margin-top: 1rem;
 
-    @include mq('xl') {
+    @include mq('sm') {
       font-size: 1.4rem;
       margin-top: 1.25rem;
+    }
+
+    @include mq('md') {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
     }
 
     @include mq('xl') {
