@@ -1,15 +1,24 @@
 .header {
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  @include mq('xl') {
+    margin-top: 8rem;
+  }
+
   &__avatar-container {
-    width: 19rem;
-    height: 19rem;
+    width: 12rem;
+    height: 12rem;
     clip-path: circle(50% at 50% 50%);
     border-radius: 50%;
     overflow: hidden;
+
+    @include mq('xl') {
+      width: 19rem;
+      height: 19rem;
+    }
   }
 
   &__avatar {
@@ -19,24 +28,39 @@
   }
 
   &__title {
-    font-size: 8rem;
-    margin-top: 2rem;
+    font-size: 4rem;
+    margin-top: 1rem;
     font-weight: 300;
+
+    @include mq('xl') {
+      font-size: 8rem;
+      margin-top: 2rem;
+    }
   }
 
   &__subtitle {
-    margin-top: -1rem;
-    font-size: 2rem;
+    margin-top: -0.5rem;
+    font-size: 1.4rem;
     font-weight: 300;
     font-style: italic;
-    // color: $colour-secondary-extra-light;
+
+    @include mq('xl') {
+      margin-top: -1rem;
+      font-size: 2rem;
+    }
   }
 
   &__paragraph {
-    width: 80%;
+    width: 90%;
     text-align: center;
-    margin-top: 2rem;
-    font-size: 1.8rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+
+    @include mq('xl') {
+      width: 80%;
+      margin-top: 2rem;
+      font-size: 1.8rem;
+    }
   }
 
   &__link {

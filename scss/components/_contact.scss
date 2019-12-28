@@ -1,24 +1,44 @@
 .contact {
-  margin-top: 4rem;
+  margin-top: 2rem;
+
 
   &__content {
     display: flex;
+    flex-direction: column;
+
+    @include mq('xl') {
+      flex-direction: row;
+    }
   }
 
   &__information,
   &__contacts {
-    width: 50%;
-    margin: 1rem 2rem;
+    width: 100%;
+    margin: 1rem;
+
+    @include mq('xl') {
+      width: 50%;
+      margin: 1rem 1.5rem;
+    }
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 1.6rem;
+
+    @include mq('xl') {
+      font-size: 2rem;
+    }
   }
 
   &__paragraph {
-    margin-top: 1.5rem;
-    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
     text-align: left;
+
+    @include mq('xl') {
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+    }
   }
 
   &__link {
@@ -34,15 +54,23 @@
     text-align: left;
 
     &-item {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
+
+      @include mq('xl') {
+        font-size: 1.4rem;
+      }
     }
 
     &-link {
-      padding: 1rem;
+      padding: 1rem 0;
       color: $colour-gray;
       display: flex;
       align-items: center;
       transition: 0.1s all;
+
+      @include mq('xl') {
+        padding: 1rem;
+      }
 
       &:hover {
         color: $colour-gray-dark;

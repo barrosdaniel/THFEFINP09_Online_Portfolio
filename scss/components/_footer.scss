@@ -1,6 +1,11 @@
 .footer {
-  margin: 4rem auto;
+  margin: 2rem auto;
   text-align: center;
+
+
+  @include mq('xl') {
+    margin: 4rem auto;
+  }
 
   &__social-link {
     margin: 0 1rem;
@@ -20,7 +25,12 @@
   }
 
   &__copyright {
-    margin-top: 2rem;
-    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+
+    @include mq('xl') {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+    }
   }
 }
