@@ -183,8 +183,9 @@ a {
 .contact__content {
   display: flex;
 }
-.contact__information {
-  margin: 1rem 1rem 0 0;
+.contact__information, .contact__contacts {
+  width: 50%;
+  margin: 1rem 2rem;
 }
 .contact__title {
   font-size: 2rem;
@@ -201,6 +202,26 @@ a {
 .contact__link:hover {
   color: #d90028;
 }
+.contact__info-list {
+  text-align: left;
+}
+.contact__info-list-item {
+  font-size: 1.4rem;
+}
+.contact__info-list-link {
+  padding: 1rem;
+  color: #808080;
+  display: flex;
+  align-items: center;
+  transition: 0.3s all;
+}
+.contact__info-list-link:hover {
+  color: #4d4d4d;
+}
+.contact__info-list-icon {
+  margin-right: 1rem;
+}
+
 .footer {
   margin: 4rem auto;
   text-align: center;

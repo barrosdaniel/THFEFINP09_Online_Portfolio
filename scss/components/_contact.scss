@@ -5,8 +5,10 @@
     display: flex;
   }
 
-  &__information {
-    margin: 1rem 1rem 0 0;
+  &__information,
+  &__contacts {
+    width: 50%;
+    margin: 1rem 2rem;
   }
 
   &__title {
@@ -28,5 +30,28 @@
     }
   }
 
-  &__contacts {}
+  &__info-list {
+    text-align: left;
+
+    &-item {
+      font-size: 1.4rem;
+    }
+
+    &-link {
+      padding: 1rem;
+      color: $colour-gray;
+      display: flex;
+      align-items: center;
+      transition: 0.3s all;
+
+      &:hover {
+        color: $colour-gray-dark;
+      }
+    }
+
+    &-icon {
+      margin-right: 1rem;
+    }
+  }
+
 }
