@@ -1,0 +1,32 @@
+.contact {
+  margin-top: 4rem;
+
+  &__content {
+    display: flex;
+  }
+
+  &__information {
+    margin: 1rem 1rem 0 0;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__paragraph {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  &__link {
+    color: $colour-secondary-extra-light;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $colour-secondary;
+    }
+  }
+
+  &__contacts {}
+}

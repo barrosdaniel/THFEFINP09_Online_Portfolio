@@ -4,6 +4,8 @@
 
   &__social-link {
     margin: 0 1rem;
+    position: relative;
+    z-index: 5;
   }
 
   &__social-icon {
