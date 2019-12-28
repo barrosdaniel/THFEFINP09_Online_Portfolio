@@ -25,6 +25,10 @@
   &__title {
     font-size: 1.6rem;
 
+    @include mq('sm') {
+      font-size: 1.7rem;
+    }
+
     @include mq('xl') {
       font-size: 2rem;
     }
@@ -34,6 +38,10 @@
     margin-top: 1rem;
     font-size: 1.3rem;
     text-align: left;
+
+    @include mq('sm') {
+      margin-top: 1.1rem;
+    }
 
     @include mq('xl') {
       margin-top: 1.5rem;
