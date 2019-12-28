@@ -219,13 +219,17 @@ a {
   color: #808080;
   display: flex;
   align-items: center;
-  transition: 0.3s all;
+  transition: 0.1s all;
 }
 .contact__info-list-link:hover {
   color: #4d4d4d;
 }
+.contact__info-list-link:hover .contact__info-list-icon {
+  transform: scale(1.1);
+}
 .contact__info-list-icon {
   margin-right: 1rem;
+  transition: 0.1s all;
 }
 
 .footer {
