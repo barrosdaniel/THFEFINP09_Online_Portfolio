@@ -5,11 +5,15 @@
     margin-top: 3rem;
   }
 
+  @include mq('lg') {
+    margin-top: 4rem;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
 
-    @include mq('xl') {
+    @include mq('lg') {
       flex-direction: row;
     }
   }
@@ -23,7 +27,7 @@
       margin: 1.5rem;
     }
 
-    @include mq('xl') {
+    @include mq('lg') {
       width: 50%;
       margin: 1rem 1.5rem;
     }
@@ -38,6 +42,10 @@
 
     @include mq('md') {
       font-size: 1.8rem;
+    }
+
+    @include mq('lg') {
+      font-size: 1.9rem;
     }
 
     @include mq('xl') {
@@ -57,6 +65,11 @@
     @include mq('md') {
       margin-top: 1.25rem;
       font-size: 1.4rem;
+    }
+
+    @include mq('lg') {
+      margin-top: 1.4rem;
+      font-size: 1.5rem;
     }
 
     @include mq('xl') {
@@ -91,7 +104,7 @@
       align-items: center;
       transition: 0.1s all;
 
-      @include mq('xl') {
+      @include mq('lg') {
         padding: 1rem;
       }
 

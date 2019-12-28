@@ -19,6 +19,14 @@
       padding: 1.5rem;
     }
 
+    @include mq('lg') {
+      flex-direction: row;
+      width: 90%;
+      margin: 3.5rem auto 0;
+      border-radius: 1rem;
+      padding: 1.75rem;
+    }
+
     @include mq('xl') {
       width: 80%;
       margin: 4rem auto 0;
@@ -36,6 +44,10 @@
       flex-direction: column;
       justify-content: space-between;
       margin-top: 1rem;
+
+      @include mq('lg') {
+        flex-direction: row;
+      }
     }
 
     &-title {
@@ -47,6 +59,10 @@
 
       @include mq('md') {
         font-size: 1.8rem;
+      }
+
+      @include mq('lg') {
+        font-size: 1.9rem;
       }
 
       @include mq('xl') {
@@ -65,7 +81,7 @@
         margin-top: 1.5rem;
       }
 
-      @include mq('xl') {
+      @include mq('lg') {
         margin-top: 0;
       }
     }
@@ -74,16 +90,8 @@
       color: $colour-gray;
       transition: 0.1s all;
 
-      @include mq('xl') {
-        margin-left: 1rem;
-      }
-
       &:nth-child(1) {
         margin-right: 1rem;
-
-        @include mq('xl') {
-          margin-right: 0;
-        }
       }
 
       &:hover {
@@ -113,7 +121,7 @@
   &__image-link {
     margin: 0 auto;
 
-    @include mq('xl') {
+    @include mq('lg') {
       margin-right: 2rem;
     }
   }
@@ -122,7 +130,17 @@
     width: 100%;
     overflow: hidden;
 
-    @include mq('xl') {
+    @include mq('sm') {
+      width: 75%;
+      margin: 0 auto;
+    }
+
+    @include mq('md') {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    @include mq('lg') {
       width: 25rem;
       height: 18.75rem;
     }
@@ -133,5 +151,4 @@
     height: auto;
     backface-visibility: hidden;
   }
-
 }
