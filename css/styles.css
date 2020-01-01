@@ -681,6 +681,8 @@ a {
 .footer__social-icon {
   color: #f7f7f7;
   transition: 0.1s all;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .footer__copyright {
   margin-top: 1rem;
