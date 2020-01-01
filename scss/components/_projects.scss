@@ -121,6 +121,14 @@
   &__image-link {
     margin: 0 auto;
 
+    &.visible {
+      display: block;
+    }
+
+    &.hidden {
+      display: none;
+    }
+
     @include mq('lg') {
       margin-right: 2rem;
     }

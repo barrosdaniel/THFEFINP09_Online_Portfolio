@@ -12,6 +12,7 @@
   <link
     href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="/lightbox2-2.11.1/css/lightbox.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Daniel Barros | Front-end Web Developer</title>
 </head>
@@ -51,10 +52,25 @@
         projects!</p>
       <!-- Project 1 tile starts -->
       <article class="projects__tile">
-        <a href="img/Project_01_Dashboard.jpg" class="projects__image-link">
+        <a href="img/Project_01_Dashboard.jpg"
+          class="projects__image-link visible" data-lightbox="project1">
           <figure class="projects__image-container">
             <img class="projects__image" src="img/Project_01_Dashboard.jpg"
-              alt="Screenshot of Dashboard Project">
+              alt="Screenshots of Dashboard Project">
+          </figure>
+        </a>
+        <a href="img/Project_01_Dashboard-2.jpg"
+          class="projects__image-link hidden" data-lightbox="project1">
+          <figure class="projects__image-container">
+            <img class="projects__image" src="img/Project_01_Dashboard-2.jpg"
+              alt="Screenshots of Dashboard Project">
+          </figure>
+        </a>
+        <a href="img/Project_01_Dashboard-3.jpg"
+          class="projects__image-link hidden" data-lightbox="project1">
+          <figure class="projects__image-container">
+            <img class="projects__image" src="img/Project_01_Dashboard-3.jpg"
+              alt="Screenshots of Dashboard Project">
           </figure>
         </a>
         <div class="projects__text">
@@ -94,10 +110,25 @@
 
       <!-- Project 2 tile starts -->
       <article class="projects__tile">
-        <a href="img/Project_02_Employee.jpg" class="projects__image-link">
+        <a href="img/Project_02_Employee.jpg"
+          class="projects__image-link visible" data-lightbox="project2">
           <figure class="projects__image-container">
             <img class="projects__image" src="img/Project_02_Employee.jpg"
-              alt="Screenshot of Employee Directory Project">
+              alt="Screenshots of Employee Project">
+          </figure>
+        </a>
+        <a href="img/Project_02_Employee-1.jpg"
+          class="projects__image-link hidden" data-lightbox="project2">
+          <figure class="projects__image-container">
+            <img class="projects__image" src="img/Project_02_Employee-1.jpg"
+              alt="Screenshots of Employee Project">
+          </figure>
+        </a>
+        <a href="img/Project_02_Employee-2.jpg"
+          class="projects__image-link hidden" data-lightbox="project2">
+          <figure class="projects__image-container">
+            <img class="projects__image" src="img/Project_02_Employee-2.jpg"
+              alt="Screenshots of Employee Project">
           </figure>
         </a>
         <div class="projects__text">
@@ -318,6 +349,7 @@
   </footer>
 
   <script src="js/particles.min.js"></script>
+  <script src="lightbox2-2.11.1/js/lightbox-plus-jquery.js"></script>
   <script src="js/app.js"></script>
 </body>
 
