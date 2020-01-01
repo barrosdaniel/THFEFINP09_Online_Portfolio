@@ -1,39 +1,50 @@
 .header {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @include mq('sm') {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   @include mq('md') {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
   @include mq('lg') {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 
   @include mq('xl') {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
 
   &__colour-container {
     align-self: flex-end;
     position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     z-index: 10;
   }
 
   &__colour {
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
     margin-left: 0.5rem;
     border-radius: 50%;
     border: 1px solid $colour-white;
     cursor: pointer;
     transition: 0.2s all;
+
+    &:last-child {
+      margin-right: 0.5rem;
+    }
+
+    @include mq('md') {
+      width: 2rem;
+      height: 2rem;
+    }
 
     &:hover {
       transform: scale(1.2);
