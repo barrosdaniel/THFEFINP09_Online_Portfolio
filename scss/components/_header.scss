@@ -20,6 +20,50 @@
     margin-top: 8rem;
   }
 
+  &__colour-container {
+    align-self: flex-end;
+    position: relative;
+    z-index: 10;
+  }
+
+  &__colour {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid $colour-white;
+    cursor: pointer;
+    transition: 0.2s all;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &--blue {
+      background-color: $colour-blue-light;
+    }
+
+    &--red {
+      background-color: $colour-red-light;
+    }
+
+    &--yellow {
+      background-color: $colour-yellow-light;
+    }
+
+    &--green {
+      background-color: $colour-green-light;
+    }
+
+    &--cyan {
+      background-color: $colour-cyan-light;
+    }
+
+    &--purple {
+      background-color: $colour-purple-light;
+    }
+  }
+
   &__avatar-container {
     width: 12rem;
     height: 12rem;

@@ -42,10 +42,6 @@ a {
   margin: 0 auto;
 }
 
-.filler {
-  height: 1200px;
-}
-
 /* Scale canvas with resize attribute to full size */
 .particles {
   width: 100%;
@@ -88,6 +84,41 @@ a {
   .header {
     margin-top: 8rem;
   }
+}
+.header__colour-container {
+  align-self: flex-end;
+  position: relative;
+  z-index: 10;
+}
+.header__colour {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #f7f7f7;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.header__colour:hover {
+  transform: scale(1.2);
+}
+.header__colour--blue {
+  background-color: #002c73;
+}
+.header__colour--red {
+  background-color: #730000;
+}
+.header__colour--yellow {
+  background-color: #6f7300;
+}
+.header__colour--green {
+  background-color: #00730f;
+}
+.header__colour--cyan {
+  background-color: #006d73;
+}
+.header__colour--purple {
+  background-color: #730060;
 }
 .header__avatar-container {
   width: 12rem;
