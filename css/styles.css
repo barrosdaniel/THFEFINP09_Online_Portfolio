@@ -437,6 +437,7 @@ a {
 }
 .projects__tile-links {
   margin-top: 1rem;
+  display: flex;
 }
 @media (min-width: 576px) {
   .projects__tile-links {
@@ -468,6 +469,8 @@ a {
 }
 .projects__tile-icon {
   transition: 0.1s all;
+  height: 3rem;
+  width: 3rem;
 }
 .projects__tile-paragraph {
   margin-top: 1rem;

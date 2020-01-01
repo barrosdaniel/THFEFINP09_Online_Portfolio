@@ -72,6 +72,7 @@
 
     &-links {
       margin-top: 1rem;
+      display: flex;
 
       @include mq('sm') {
         margin-top: 1.25rem;
@@ -105,6 +106,8 @@
 
     &-icon {
       transition: 0.1s all;
+      height: 3rem;
+      width: 3rem;
     }
 
     &-paragraph {
