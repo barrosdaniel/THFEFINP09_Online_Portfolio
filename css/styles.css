@@ -646,6 +646,8 @@ a {
   transform: scale(1.1);
 }
 .contact__info-list-icon {
+  width: 3rem;
+  height: 3rem;
   margin-right: 1rem;
   transition: 0.1s all;
 }
